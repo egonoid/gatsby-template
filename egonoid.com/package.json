@@ -73,7 +73,7 @@
     "start": "yarn develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 0",
     "lint": "concurrently \"yarn run lint:ts\" \"yarn run lint:scss\"",
     "lint:ts": "eslint . --ext ts --ext tsx",
     "lint:scss": "stylelint \"src/**/*.scss\""
