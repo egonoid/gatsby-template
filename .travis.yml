@@ -5,6 +5,7 @@ cache: yarn
 script:
   - yarn global add gatsby-cli
   - cd egonoid.com
+  - yarn
   - yarn build
   - yarn test
 notifications:
