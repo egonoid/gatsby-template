@@ -1,25 +1,21 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React from 'react';
+import { Link, graphql } from 'gatsby';
 
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
+import Bio from '../components/bio';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import { rhythm, scale } from '../utils/typography';
 
 interface IProps {
-  data: any
-  location: any
-  pageContext: any
+  data: any;
+  location: any;
+  pageContext: any;
 }
 
-const BlogPostTemplate: React.SFC<IProps> = ({
-  data,
-  pageContext,
-  location,
-}) => {
-  const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata.title
-  const { previous, next } = pageContext
+const BlogPostTemplate: React.SFC<IProps> = ({ data, pageContext, location }) => {
+  const post = data.markdownRemark;
+  const siteTitle = data.site.siteMetadata.title;
+  const { previous, next } = pageContext;
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -85,10 +81,10 @@ const BlogPostTemplate: React.SFC<IProps> = ({
         </ul>
       </nav>
     </Layout>
-  )
-}
+  );
+};
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -108,4 +104,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
