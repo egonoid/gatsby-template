@@ -7,12 +7,16 @@ import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
 interface IProps {
-  data: any;
-  location: any;
-  pageContext: any;
+  data: any
+  location: any
+  pageContext: any
 }
 
-const BlogPostTemplate: React.SFC<IProps> = ({ data, pageContext, location }) => {
+const BlogPostTemplate: React.SFC<IProps> = ({
+  data,
+  pageContext,
+  location,
+}) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext

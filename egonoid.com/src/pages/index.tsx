@@ -7,8 +7,8 @@ import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
 interface IProps {
-  data: any;
-  location: any;
+  data: any
+  location: any
 }
 
 const BlogIndex: React.SFC<IProps> = ({ data, location }) => {

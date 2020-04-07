@@ -1,9 +1,15 @@
-import React from "react"
+import React, { ReactNode } from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 
-const Layout = ({ location, title, children }) => {
+interface IProps {
+  location: any
+  title: string
+  children: ReactNode
+}
+
+const Layout: React.SFC<IProps> = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   let header
 

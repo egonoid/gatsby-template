@@ -5,8 +5,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 interface IProps {
-  data: any;
-  location: any;
+  data: any
+  location: any
 }
 
 const NotFoundPage: React.SFC<IProps> = ({ data, location }) => {
