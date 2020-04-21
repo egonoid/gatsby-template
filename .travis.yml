@@ -7,7 +7,7 @@ script:
   - cd egonoid.com
   - yarn
   - yarn build
-  - yarn test
+  - yarn test:single
 notifications:
   slack:
     secure: ZDsGLFwdyONbmhZ9Dil0xcOn5k6WRZAktuPJlfo5xQUM1nsANs9pGPxyrD9LUbAiD+DeCweLfi1xFyQuLymVProoiE2JknS/VJR666YVhMO0rorzej1bWSBlSx7HnQpx+880IiV8Ncs+GdIntdkAR+SbtNYmetIoHsqLUh3i35glsIRQuZwkTZbiLrlhVkM2kugjd+Mc8RKz5z+olFwMOClGfmtFfBQ8WIhn2GQRZWMmCwqva5w6dS+9AWzpIQ5OxWy8+MIkLfGa7PtpF33nA0XaqZ+PKYcxYBJQj/E7upRTG+WgRuVdM2l1eDbVrqapdlE+q/b3ZE8g8KKYg57c2La+SSaHgE/q9fQ9dVZEMdgfICSjUhsIeQnWzTh7r2Nnt3UdFKUbTA1tvDjwEhJ0syVEJWtryA3eIMSrLn9nQpY5cYCRPD7liXp9Fg8261puir7Wh+ykYkKl6QfamCNqz47SpEg/xdwkORF1qpT1HJ6O3vb1av7CQnFP+sUf/eoxXNUC1+ztS+UglrTNXo4qNrqQjSuYjJ+9OnPCPLvYBu0qB0NpgMk09FF7+r8rM4Z63Z0fQKvoF9Ejb1ZxQGLFGmsbTOj9FfC2Ok2CbzW+uGB8CgnXSFBxOQaiPtGOH6CwA0y5Rtc3xiog16Qk6YtH8//2oBJlrHk5e4yPr8RUZps=
