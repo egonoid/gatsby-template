@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Bio /> renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        style="display: flex; margin-bottom: 4.375rem;"
+      >
+        <div
+          class=" gatsby-image-wrapper"
+          style="position: relative; overflow: hidden; display: inline-block; width: 300px; height: 300px; margin-right: 0.875rem; margin-bottom: 0px; min-width: 50px; border-radius: 100%;"
+        >
+          <picture>
+            <source
+              srcset=""
+            />
+            <img
+              alt=""
+              height="300"
+              loading="lazy"
+              src=""
+              srcset=""
+              style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms; border-radius: 50%;"
+              width="300"
+            />
+          </picture>
+          <noscript>
+            &lt;picture&gt;&lt;source srcset="" /&gt;&lt;img loading="lazy" width="300" height="300" src="" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+          </noscript>
+        </div>
+        <p>
+          Written by 
+          <strong />
+           
+           
+          <a
+            href="https://twitter.com/"
+          >
+            You should follow him on Twitter
+          </a>
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      style="display: flex; margin-bottom: 4.375rem;"
+    >
+      <div
+        class=" gatsby-image-wrapper"
+        style="position: relative; overflow: hidden; display: inline-block; width: 300px; height: 300px; margin-right: 0.875rem; margin-bottom: 0px; min-width: 50px; border-radius: 100%;"
+      >
+        <picture>
+          <source
+            srcset=""
+          />
+          <img
+            alt=""
+            height="300"
+            loading="lazy"
+            src=""
+            srcset=""
+            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms; border-radius: 50%;"
+            width="300"
+          />
+        </picture>
+        <noscript>
+          &lt;picture&gt;&lt;source srcset="" /&gt;&lt;img loading="lazy" width="300" height="300" src="" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+        </noscript>
+      </div>
+      <p>
+        Written by 
+        <strong />
+         
+         
+        <a
+          href="https://twitter.com/"
+        >
+          You should follow him on Twitter
+        </a>
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
