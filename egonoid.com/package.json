@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "egonoid.com",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Template starter project for egonoid Gatsby.js.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "egonoid GmbH (https://www.egonoid.com)",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/egonoid/gatsby-template/issues"
   },
   "dependencies": {
     "gatsby": "^2.20.12",

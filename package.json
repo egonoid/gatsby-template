@@ -1,0 +1,12 @@
+{
+    "private": true,
+    "workspaces": [
+        "egonoid.com",
+        "themes/*"
+    ],
+    "scripts": {
+        "build": "yarn workspace egonoid.com build",
+        "start": "yarn workspace egonoid.com start",
+        "clean": "yarn workspace egonoid.com clean"
+    }
+}
