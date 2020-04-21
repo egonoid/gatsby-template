@@ -7,6 +7,8 @@
     "scripts": {
         "build": "yarn workspace egonoid.com build",
         "start": "yarn workspace egonoid.com start",
-        "clean": "yarn workspace egonoid.com clean && yarn workspace @egonoid/gatsby-theme-common clean && yarn workspace @egonoid/gatsby-theme-blog clean"
+        "clean": "yarn workspace egonoid.com clean && yarn workspace @egonoid/gatsby-theme-common clean && yarn workspace @egonoid/gatsby-theme-blog clean",
+        "test": "yarn workspace egonoid.com test",
+        "test:single": "yarn workspace egonoid.com test:single"
     }
 }
