@@ -1,10 +1,7 @@
-import React from 'react';
-import { Link, graphql } from 'gatsby';
+import React from "react";
+import { Link, graphql } from "gatsby";
 
-import { Bio } from '../components';
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import { rhythm, scale } from '../utils/typography';
+import { Bio, Layout, SEO } from "@egonoid/gatsby-theme-common";
 
 interface IProps {
   data: any;
@@ -12,7 +9,11 @@ interface IProps {
   pageContext: any;
 }
 
-const BlogPostTemplate: React.SFC<IProps> = ({ data, pageContext, location }) => {
+const BlogPostTemplate: React.SFC<IProps> = ({
+  data,
+  pageContext,
+  location,
+}) => {
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata.title;
   const { previous, next } = pageContext;
@@ -27,7 +28,7 @@ const BlogPostTemplate: React.SFC<IProps> = ({ data, pageContext, location }) =>
         <header>
           <h1
             style={{
-              marginTop: rhythm(1),
+              marginTop: "1rem",
               marginBottom: 0,
             }}
           >
@@ -35,9 +36,8 @@ const BlogPostTemplate: React.SFC<IProps> = ({ data, pageContext, location }) =>
           </h1>
           <p
             style={{
-              ...scale(-1 / 5),
               display: `block`,
-              marginBottom: rhythm(1),
+              marginBottom: "1rem",
             }}
           >
             {post.frontmatter.date}
@@ -46,7 +46,7 @@ const BlogPostTemplate: React.SFC<IProps> = ({ data, pageContext, location }) =>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
-            marginBottom: rhythm(1),
+            marginBottom: "1rem",
           }}
         />
         <footer>

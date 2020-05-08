@@ -1,10 +1,6 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
-
-import { Bio } from '../components';
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import { rhythm } from '../utils/typography';
+import { Layout, SEO, Bio } from '@egonoid/gatsby-theme-common';
 
 interface IProps {
   data: any;
@@ -26,7 +22,7 @@ const BlogIndex: React.SFC<IProps> = ({ data, location }) => {
             <header>
               <h3
                 style={{
-                  marginBottom: rhythm(1 / 4),
+                  marginBottom: '1rem',
                 }}
               >
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>

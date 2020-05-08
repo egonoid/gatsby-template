@@ -1,7 +1,5 @@
-import React, { ReactNode } from 'react';
-import { Link } from 'gatsby';
-
-import { rhythm, scale } from '../utils/typography';
+import React, { ReactNode } from "react";
+import { Link } from "gatsby";
 
 interface IProps {
   location: any;
@@ -17,8 +15,6 @@ const Layout: React.SFC<IProps> = ({ location, title, children }) => {
     header = (
       <h1
         style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
           marginTop: 0,
         }}
       >
@@ -58,8 +54,6 @@ const Layout: React.SFC<IProps> = ({ location, title, children }) => {
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(24),
-        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >
       <header>{header}</header>

@@ -4,6 +4,7 @@
   "description": "Common components",
   "version": "0.1.0",
   "author": "egonoid GmbH (https://www.egonoid.com)",
+  "main": "index.ts",
   "dependencies": {
     "@mdx-js/mdx": "^1.5.8",
     "@mdx-js/react": "^1.5.8",
