@@ -5,11 +5,11 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React, { SFC } from "react";
-import { useStaticQuery, graphql } from "gatsby";
-import Image from "gatsby-image";
+import React, { SFC } from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
+import Image from 'gatsby-image';
 
-import styles from "./Bio.module.scss";
+import styles from './Bio.module.scss';
 
 const Bio: SFC = () => {
   const data = useStaticQuery(graphql`
@@ -46,9 +46,7 @@ const Bio: SFC = () => {
       <p>
         Written by <strong>{author.name}</strong> {author.summary}
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
+        <a href={`https://twitter.com/${social.twitter}`}>You should follow him on Twitter</a>
       </p>
     </div>
   );

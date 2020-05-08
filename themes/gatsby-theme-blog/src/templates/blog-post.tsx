@@ -1,7 +1,7 @@
-import React from "react";
-import { Link, graphql } from "gatsby";
+import React from 'react';
+import { Link, graphql } from 'gatsby';
 
-import { Bio, Layout, SEO } from "@egonoid/gatsby-theme-common";
+import { Bio, Layout, SEO } from '@egonoid/gatsby-theme-common';
 
 interface IProps {
   data: any;
@@ -9,11 +9,7 @@ interface IProps {
   pageContext: any;
 }
 
-const BlogPostTemplate: React.SFC<IProps> = ({
-  data,
-  pageContext,
-  location,
-}) => {
+const BlogPostTemplate: React.SFC<IProps> = ({ data, pageContext, location }) => {
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata.title;
   const { previous, next } = pageContext;
@@ -28,7 +24,7 @@ const BlogPostTemplate: React.SFC<IProps> = ({
         <header>
           <h1
             style={{
-              marginTop: "1rem",
+              marginTop: '1rem',
               marginBottom: 0,
             }}
           >
@@ -37,7 +33,7 @@ const BlogPostTemplate: React.SFC<IProps> = ({
           <p
             style={{
               display: `block`,
-              marginBottom: "1rem",
+              marginBottom: '1rem',
             }}
           >
             {post.frontmatter.date}
@@ -46,7 +42,7 @@ const BlogPostTemplate: React.SFC<IProps> = ({
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
-            marginBottom: "1rem",
+            marginBottom: '1rem',
           }}
         />
         <footer>

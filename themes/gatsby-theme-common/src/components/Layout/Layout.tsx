@@ -1,5 +1,5 @@
-import React, { ReactNode } from "react";
-import { Link } from "gatsby";
+import React, { ReactNode } from 'react';
+import { Link } from 'gatsby';
 
 interface IProps {
   location: any;

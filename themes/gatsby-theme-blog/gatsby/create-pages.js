@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-const path = require("path");
+const path = require('path');
 
 const createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
@@ -9,10 +9,7 @@ const createPages = async ({ graphql, actions }) => {
   const result = await graphql(
     `
       {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
-        ) {
+        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 1000) {
           edges {
             node {
               fields {
