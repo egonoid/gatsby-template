@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 
 import { Bio, Layout, SEO } from '@egonoid/gatsby-theme-common';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 interface IProps {
   data: any;
@@ -10,7 +11,7 @@ interface IProps {
 }
 
 const BlogPostTemplate: React.SFC<IProps> = ({ data, pageContext, location }) => {
-  const post = data.markdownRemark;
+  const post = data.mdx;
   const siteTitle = data.site.siteMetadata.title;
   const { previous, next } = pageContext;
 
@@ -39,7 +40,7 @@ const BlogPostTemplate: React.SFC<IProps> = ({ data, pageContext, location }) =>
             {post.frontmatter.date}
           </p>
         </header>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{
             marginBottom: '1rem',
@@ -89,7 +90,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    mdx(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
       html
