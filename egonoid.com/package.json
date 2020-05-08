@@ -69,8 +69,8 @@
     "start": "yarn develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "jest --watch",
-    "test:single": "CI=true jest",
+    "test": "echo \"Write tests!\"",
+    "test:single": "echo \"Write tests!\"",
     "lint": "concurrently \"yarn run lint:ts\" \"yarn run lint:scss\"",
     "lint:ts": "eslint . --ext ts --ext tsx",
     "lint:scss": "stylelint \"src/**/*.scss\""

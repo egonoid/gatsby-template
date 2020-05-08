@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
 import * as Gatsby from 'gatsby';
-import { Bio } from '.';
+import Bio from '.';
 
 describe('<Bio />', () => {
   beforeEach(cleanup);

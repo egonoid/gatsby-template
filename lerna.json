@@ -1,0 +1,5 @@
+{
+  "packages": ["egonoid.com", "themes/*"],
+  "version": "0.0.0",
+  "npmClient": "yarn"
+}
