@@ -1175,6 +1175,11 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@egonoid/react-components-modal@^0.0.1":
+  version "0.0.1"
+  resolved "https://npm.pkg.github.com/download/@egonoid/react-components-modal/0.0.1/45900ff6a57307054df38b4d69595111127e05ac10bf9d905cb3d24a4b66979e#433340593fc6a1209c4456cb5ad3ddf20dff8164"
+  integrity sha512-xEe4+uz+USOTY3K9cWsbibql+tB+re1+0EQYGu2jU/jVx73fRxna3zwmvUanu2768n/mpJDWoQplcCIZ+A5gxA==
+
 "@emotion/is-prop-valid@^0.8.8":
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
