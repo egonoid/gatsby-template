@@ -3,6 +3,14 @@ import { Link, graphql } from 'gatsby';
 
 import { Bio, Layout, SEO } from '@egonoid/gatsby-theme-common';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
+import { MDXProvider } from '@mdx-js/react';
+
+import { ExampleComponent } from '@egonoid/react-components-modal';
+
+const shortcodes = {
+  ExampleComponent,
+  Link,
+};
 
 interface IProps {
   data: any;
@@ -40,7 +48,9 @@ const BlogPostTemplate: React.SFC<IProps> = ({ data, pageContext, location }) =>
             {post.frontmatter.date}
           </p>
         </header>
-        <MDXRenderer>{post.body}</MDXRenderer>
+        <MDXProvider components={shortcodes}>
+          <MDXRenderer>{post.body}</MDXRenderer>
+        </MDXProvider>
         <hr
           style={{
             marginBottom: '1rem',
