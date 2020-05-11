@@ -5,7 +5,8 @@ import { Bio, Layout, SEO } from '@egonoid/gatsby-theme-common';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { MDXProvider } from '@mdx-js/react';
 
-import { ExampleComponent } from '@egonoid/react-components-modal';
+// import { ExampleComponent } from '@egonoid/react-components-modal';
+import ExampleComponent from '@bit/tim-hoffmann.react-components.example';
 
 const shortcodes = {
   ExampleComponent,

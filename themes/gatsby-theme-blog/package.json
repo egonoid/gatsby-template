@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "egonoid GmbH (https://www.egonoid.com)",
   "dependencies": {
+    "@bit/tim-hoffmann.react-components.example": "^0.0.1",
     "@egonoid/gatsby-theme-common": "*",
     "@egonoid/react-components-modal": "^0.0.1",
     "@mdx-js/mdx": "^1.6.1",
