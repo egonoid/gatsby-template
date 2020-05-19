@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="container"
+        class="test123"
       >
         <div
           class="image__container gatsby-image-wrapper"
@@ -46,7 +46,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="container"
+      class="test123"
     >
       <div
         class="image__container gatsby-image-wrapper"

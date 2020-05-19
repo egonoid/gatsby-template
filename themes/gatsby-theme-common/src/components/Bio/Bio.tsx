@@ -37,7 +37,7 @@ const Bio: SFC = () => {
 
   const { author, social } = data.site.siteMetadata;
   return (
-    <div className={styles.container}>
+    <div className={`test123`}>
       <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author.name}

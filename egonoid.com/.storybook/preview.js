@@ -1,6 +1,6 @@
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { addParameters } from '@storybook/react';
-// import '!style-loader!css-loader!sass-loader!./scss-loader.scss';
+import '!style-loader!css-loader!sass-loader!./scss-loader.scss';
 
 addParameters({
   options: {
