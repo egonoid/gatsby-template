@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = ({ config }) => {
   // Transpile Gatsby module because Gatsby includes un-transpiled ES6 code.
   config.module.rules[0].exclude = [/node_modules\/(?!(gatsby)\/)/];
@@ -35,6 +37,29 @@ module.exports = ({ config }) => {
   });
 
   config.resolve.extensions.push('.ts', '.tsx');
+
+  // Scss support
+  config.module.rules.push({
+    test: /\.scss$/,
+    use: ['style-loader', 'css-loader', 'sass-loader'],
+    include: path.resolve(__dirname, 'scss-loader.scss'),
+  });
+
+  // Add SCSS Modules support
+  config.module.rules.push({
+    test: /\.module.scss$/,
+    loaders: [
+      require.resolve('style-loader'),
+      {
+        loader: require.resolve('css-loader'),
+        options: {
+          importLoaders: 1,
+          modules: true,
+        },
+      },
+      require.resolve('sass-loader'),
+    ],
+  });
 
   return config;
 };
