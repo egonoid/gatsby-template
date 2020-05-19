@@ -1,0 +1,61 @@
+{
+  "name": "@egonoid/gatsby-theme-blog",
+  "private": false,
+  "version": "0.1.0",
+  "author": "egonoid GmbH (https://www.egonoid.com)",
+  "dependencies": {
+    "@egonoid/gatsby-theme-common": "*",
+    "@mdx-js/mdx": "^1.6.1",
+    "@mdx-js/react": "^1.6.1",
+    "@types/mdx-js__react": "^1.5.1",
+    "foundation-sites": "^6.6.3",
+    "gatsby-background-image": "^1.1.1",
+    "gatsby-image": "^2.3.4",
+    "gatsby-plugin-mdx": "^1.2.6",
+    "gatsby-plugin-offline": "^3.1.4",
+    "gatsby-plugin-page-creator": "^2.2.3",
+    "gatsby-plugin-react-helmet": "^3.2.4",
+    "gatsby-plugin-sass": "^2.2.3",
+    "gatsby-plugin-sharp": "^2.5.6",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-remark-relative-images": "^0.3.0",
+    "gatsby-source-filesystem": "^2.2.4",
+    "gatsby-transformer-sharp": "^2.4.6",
+    "lodash": "^4.17.15",
+    "node-sass": "^4.13.1",
+    "normalize-scss": "^7.0.1",
+    "react-helmet": "^6.0.0",
+    "@bit/tim-hoffmann.react-components.example": "0.0.7"
+  },
+  "devDependencies": {
+    "gatsby": "^2.20.28",
+    "prettier": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "serverless-s3-sync": "^1.12.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.20.28",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests!\"",
+    "test:single": "echo \"Write tests!\""
+  },
+  "bit": {
+    "env": {},
+    "componentsDefaultDirectory": "src/components/{name}",
+    "packageManager": "yarn"
+  }
+}
