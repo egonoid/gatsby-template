@@ -81,7 +81,7 @@
     "lint": "concurrently \"yarn run lint:ts\" \"yarn run lint:scss\"",
     "lint:ts": "eslint . --ext ts --ext tsx",
     "lint:scss": "stylelint \"src/**/*.scss\"",
-    "storybook": "NODE_ENV=production start-storybook -s public -p 6006",
-    "build-storybook": "NODE_ENV=production build-storybook -s public"
+    "storybook": "NODE_ENV=production start-storybook  -p 9009 -s .storybook/public",
+    "build-storybook": "NODE_ENV=production build-storybook -s .storybook/public -o build/storybook"
   }
 }
