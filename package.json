@@ -10,7 +10,8 @@
         "clean": "yarn lerna run clean --stream",
         "test": "yarn lerna run test --stream",
         "test:single": "yarn lerna run test:single --stream",
-        "format": "yarn lerna run format --stream"
+        "format": "yarn lerna run format --stream",
+        "storybook": "yarn workspace egonoid.com storybook"
     },
     "devDependencies": {
         "eslint": "^6.8.0",

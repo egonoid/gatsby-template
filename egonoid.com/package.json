@@ -38,6 +38,10 @@
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-typescript": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
     "@testing-library/react": "^10.0.3",
     "@types/jest": "^25.2.1",
     "@types/react": "^16.9.34",
@@ -45,6 +49,7 @@
     "@types/typography": "^0.16.3",
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "@typescript-eslint/parser": "^2.29.0",
+    "babel-loader": "^8.1.0",
     "babel-preset-gatsby": "^0.3.3",
     "concurrently": "^5.1.0",
     "identity-obj-proxy": "^3.0.0",
@@ -73,6 +78,8 @@
     "test:single": "echo \"Write tests!\"",
     "lint": "concurrently \"yarn run lint:ts\" \"yarn run lint:scss\"",
     "lint:ts": "eslint . --ext ts --ext tsx",
-    "lint:scss": "stylelint \"src/**/*.scss\""
+    "lint:scss": "stylelint \"src/**/*.scss\"",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }
