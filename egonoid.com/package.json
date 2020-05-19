@@ -40,6 +40,7 @@
     "@babel/preset-typescript": "^7.9.0",
     "@storybook/addon-actions": "^5.3.18",
     "@storybook/addon-links": "^5.3.18",
+    "@storybook/addon-viewport": "^5.3.18",
     "@storybook/addons": "^5.3.18",
     "@storybook/react": "^5.3.18",
     "@testing-library/react": "^10.0.3",
@@ -80,7 +81,7 @@
     "lint": "concurrently \"yarn run lint:ts\" \"yarn run lint:scss\"",
     "lint:ts": "eslint . --ext ts --ext tsx",
     "lint:scss": "stylelint \"src/**/*.scss\"",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "NODE_ENV=production start-storybook -s public -p 6006",
+    "build-storybook": "NODE_ENV=production build-storybook -s public"
   }
 }

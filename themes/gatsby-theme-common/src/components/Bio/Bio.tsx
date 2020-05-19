@@ -9,7 +9,7 @@ import React, { SFC } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Image from 'gatsby-image';
 
-import styles from './Bio.module.scss';
+// import styles from './Bio.module.scss';
 
 const Bio: SFC = () => {
   const data = useStaticQuery(graphql`
@@ -36,13 +36,10 @@ const Bio: SFC = () => {
   `);
 
   const { author, social } = data.site.siteMetadata;
+
   return (
-    <div className={styles.container}>
-      <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author.name}
-        className={styles.image__container}
-      />
+    <div>
+      <Image fixed={data.avatar.childImageSharp.fixed} alt={author.name} />
       <p>
         Written by <strong>{author.name}</strong> {author.summary}
         {` `}
