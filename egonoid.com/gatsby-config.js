@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `egonoid Gatsby Template`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `egonoid GmbH`,
+      summary: `with ❤️ in Cologne.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `A template that is used to created Gatsby Websites at egonoid.`,
+    siteUrl: `https://egonoid.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: 'egonoid',
     },
   },
   plugins: [
@@ -62,10 +62,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Gatsby Starter Blog`,
+        /* eslint-disable */
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
+        /* eslint-enable */
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
