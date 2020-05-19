@@ -6,7 +6,6 @@
   "author": "egonoid GmbH (https://www.egonoid.com)",
   "dependencies": {
     "@egonoid/gatsby-theme-common": "*",
-    "@egonoid/react-components-modal": "^0.0.1",
     "@mdx-js/mdx": "^1.6.1",
     "@mdx-js/react": "^1.6.1",
     "@types/mdx-js__react": "^1.5.1",
