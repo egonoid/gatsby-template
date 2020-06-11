@@ -5,7 +5,6 @@
   "author": "egonoid GmbH (https://www.egonoid.com)",
   "main": "index.ts",
   "dependencies": {
-    "@egonoid/react-components-modal": "^0.0.1",
     "@mdx-js/mdx": "^1.5.8",
     "@mdx-js/react": "^1.5.8",
     "foundation-sites": "^6.6.3",

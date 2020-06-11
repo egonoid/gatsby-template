@@ -1318,11 +1318,6 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@egonoid/react-components-modal@^0.0.1":
-  version "0.0.1"
-  resolved "https://npm.pkg.github.com/download/@egonoid/react-components-modal/0.0.1/45900ff6a57307054df38b4d69595111127e05ac10bf9d905cb3d24a4b66979e#433340593fc6a1209c4456cb5ad3ddf20dff8164"
-  integrity sha512-xEe4+uz+USOTY3K9cWsbibql+tB+re1+0EQYGu2jU/jVx73fRxna3zwmvUanu2768n/mpJDWoQplcCIZ+A5gxA==
-
 "@emotion/cache@^10.0.27":
   version "10.0.29"
   resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-10.0.29.tgz#87e7e64f412c060102d589fe7c6dc042e6f9d1e0"
