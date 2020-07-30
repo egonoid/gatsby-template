@@ -1,7 +1,7 @@
 {
   "name": "@egonoid/gatsby-theme-blog",
   "private": false,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "egonoid GmbH (https://www.egonoid.com)",
   "dependencies": {
     "@egonoid/gatsby-theme-common": "*",
