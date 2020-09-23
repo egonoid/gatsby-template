@@ -6,7 +6,6 @@ before_install:
   - npm config set //node.bit.dev/:_authToken=$BIT_TOKEN
 script:
   - yarn global add gatsby-cli
-  - cd egonoid.com
   - yarn
   - yarn build
   - yarn test:single
