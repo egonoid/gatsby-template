@@ -46,8 +46,6 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "jest --watch",
-    "test:single": "CI=true jest"
+    "serve": "gatsby serve"
   }
 }
