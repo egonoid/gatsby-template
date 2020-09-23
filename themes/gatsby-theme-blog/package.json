@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "egonoid GmbH (https://www.egonoid.com)",
   "dependencies": {
+    "@bit/tim-hoffmann.react-components.example": "0.0.7",
     "@egonoid/gatsby-theme-common": "*",
     "@mdx-js/mdx": "^1.6.1",
     "@mdx-js/react": "^1.6.1",
@@ -24,8 +25,7 @@
     "lodash": "^4.17.15",
     "node-sass": "^4.13.1",
     "normalize-scss": "^7.0.1",
-    "react-helmet": "^6.0.0",
-    "@bit/tim-hoffmann.react-components.example": "0.0.7"
+    "react-helmet": "^6.0.0"
   },
   "devDependencies": {
     "gatsby": "^2.20.28",
