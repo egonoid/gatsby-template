@@ -1,5 +1,8 @@
 {
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
+  "[handlebars]": {
+    "editor.formatOnSave": false
+  },
   "jest.pathToJest": "yarn test"
 }
