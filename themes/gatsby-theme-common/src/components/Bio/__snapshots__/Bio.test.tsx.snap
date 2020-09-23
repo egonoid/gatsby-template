@@ -13,9 +13,7 @@ Object {
           style="position: relative; overflow: hidden; display: inline-block; width: 300px; height: 300px;"
         >
           <picture>
-            <source
-              srcset=""
-            />
+            
             <img
               alt=""
               height="300"
@@ -53,9 +51,7 @@ Object {
         style="position: relative; overflow: hidden; display: inline-block; width: 300px; height: 300px;"
       >
         <picture>
-          <source
-            srcset=""
-          />
+          
           <img
             alt=""
             height="300"
