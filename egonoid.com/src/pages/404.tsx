@@ -7,7 +7,7 @@ interface IProps {
   location: any;
 }
 
-const NotFoundPage: React.SFC<IProps> = ({ data, location }) => {
+const NotFoundPage: React.FC<IProps> = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
 
   return (
