@@ -7,7 +7,7 @@ interface IProps {
   location: any;
 }
 
-const BlogIndex: React.SFC<IProps> = ({ data, location }) => {
+const BlogIndex: React.FC<IProps> = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
   const posts = data.allMdx.edges;
 
