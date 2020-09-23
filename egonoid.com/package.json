@@ -2,7 +2,7 @@
   "name": "egonoid.com",
   "private": true,
   "description": "Template starter project for egonoid Gatsby.js.",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "author": "egonoid GmbH (https://www.egonoid.com)",
   "bugs": {
     "url": "https://github.com/egonoid/gatsby-template/issues"
