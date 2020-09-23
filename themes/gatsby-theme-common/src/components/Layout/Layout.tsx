@@ -7,7 +7,7 @@ interface IProps {
   children: ReactNode;
 }
 
-const Layout: React.SFC<IProps> = ({ location, title, children }) => {
+const Layout: React.FC<IProps> = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`;
   let header;
 

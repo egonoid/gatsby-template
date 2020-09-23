@@ -16,7 +16,7 @@ interface IProps {
   meta?: any[];
 }
 
-const SEO: React.SFC<IProps> = ({ title, description = '', lang = 'en', meta = [] }) => {
+const SEO: React.FC<IProps> = ({ title, description = '', lang = 'en', meta = [] }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
