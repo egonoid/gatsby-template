@@ -28,14 +28,14 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "gatsby": "^2.24.63",
+    "gatsby": "^4.3.0",
     "prettier": "^2.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "serverless-s3-sync": "^1.14.4"
   },
   "peerDependencies": {
-    "gatsby": "^2.24.63",
+    "gatsby": "^4.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
